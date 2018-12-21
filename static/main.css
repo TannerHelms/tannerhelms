@@ -1,0 +1,45 @@
+body {
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+}
+
+#acts>div{
+  display: inline-block;;
+  box-sizing: border-box;
+  width: 20%;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: teal;
+  height: 100px;
+  vertical-align: top;
+}
+#acts>div button{
+  border: 2px solid white;
+  color: white;
+  background-color: teal;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 0 auto;
+  width: auto;
+
+}
+#acts>div *{
+  display: block;
+  margin-top: 5px;
+
+}
+
+#acts>div button:hover{
+  color: teal;
+  background-color: white;
+}
+
+#log{
+  padding: 5px;
+}
+
+#log ul{
+  list-style: none;
+}
